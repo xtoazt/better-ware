@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://www.startpage.com/";//your website url
+  let target = "https://myaccount.starnightimport.com/";//currently a mocha proxy link, EDIT THISSSS
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
